@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geolocalizacion</title>
+    <link rel="stylesheet" href="/static/styles.css"> <!-- Agrega el enlace al archivo CSS -->
+</head>
+<body>
+    <div class="contenedor" style="margin-top: 0px;margin-bottom: 185px;">
+        <h1>Geolocalizacion</h1>
+        
+        <form action="/" method="post" class="formulario">
+            <label for="token">Elige un token:</label>
+            <select name="token" id="token">
+                <option value="token1">URL 1</option>
+                <option value="token2">URL 2</option>
+                <option value="token3">URL 3</option>
+                <!-- Agrega más opciones de tokens según tus necesidades -->
+            </select>
+            <label for="email">Tu correo electrónico:</label>
+            <input type="email" name="email" id="email" required>
+			<label for="message">Mensaje:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+            <input type="submit" value="Generar URL">
+        </form>
+    </div>
+</body>
+</html>
+
+
+

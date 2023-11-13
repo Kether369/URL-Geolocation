@@ -1,0 +1,65 @@
+body {
+    background-image: url('/static/img/map.9.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(19, 40, 224, 0.646);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .contenedor {
+    width: 400px;
+    padding: 20px;
+    background-color: #746fa232;
+    border-radius: 10px;  
+    color: #f8f4f4fc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
+    /* Nuevos estilos */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+  }
+  
+  .formulario {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+  } 
+  
+  
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="submit"], .boton-crear { /* Agrega estilos para ambos botones */
+    background-color: #f2090968;
+    border: none;
+    color: #ffffff88;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Añade espacio entre el campo de mensaje y el botón */
+}
+
+input[type="submit"]:hover, .boton-crear:hover { /* Cambia el color de fondo en el hover */
+    background-color: #04513ba7;
+}
+
+a {
+    color: #fcfffc; /* Color de la URL */
+  }
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canary Token</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> <!-- Agrega el enlace al archivo CSS -->
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Canary Token</h1>
+        <form action="/" method="post" class="formulario">
+            <label for="token">Elige un token:</label>
+            <select name="token" id="token">
+                <option value="token1">Token 1</option>
+                <option value="token2">Token 2</option>
+                <!-- Agrega más opciones de tokens según tus necesidades -->
+            </select>
+            <label for="email">Tu correo electrónico:</label>
+            <textarea name="email" id="email" rows="3" required></textarea> <!-- Cambia el input a un textarea -->
+            <label for="message">Mensaje:</label>
+            <textarea name="message" id="message" rows="5" required></textarea> <!-- Agrega un textarea para el mensaje -->
+            <input type="submit" value="Generar URL" class="boton-crear"> <!-- Agrega la clase "boton-crear" para el estilo del botón -->
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
