@@ -124,17 +124,3 @@ def canary_token(token):
 
 if __name__ == '__main__':
     app.run(port=8080)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
